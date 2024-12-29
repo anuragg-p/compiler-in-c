@@ -1,0 +1,52 @@
+# Ignore object files, shared libraries, and executables
+*.o
+*.a
+*.so
+*.exe
+
+# Ignore dependency files
+*.d
+
+# Ignore compiled dynamic libraries
+*.dll
+*.dylib
+
+# Ignore compiled static libraries
+*.lib
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/out/
+
+# Ignore editor and IDE specific files
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*.bak
+*.old
+*.orig
+*.tmp
+
+# Ignore generated documentation
+/docs/
+/*.html
+
+# Ignore configuration files
+*.config
+*.cfg
